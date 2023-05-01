@@ -1,0 +1,103 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    background-color: #15202b;
+
+}
+main,.header{
+    display: flex;
+flex-direction: column;
+gap: 1rem;
+color: white;
+width: 65vw;
+
+}
+.banner-img{
+    width: 100%;
+
+}
+.banner-img img{
+    width: 100%;
+
+}
+.profile-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.profile-img img{
+    border-radius: 50%;
+    width: 20%;
+    
+
+}
+.profile-icons{
+    display: flex;
+gap: .5rem;
+
+}
+.profile-icons i{
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 100%;
+    padding: 1rem;
+
+    
+}
+.profile-icons button{
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 100vw;
+}
+.userName{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+.top, .links{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+.about{
+    line-height: 1.5;
+}
+.description{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+}
+.post-img{
+    width: 10%;
+    border-radius: 50%;
+    display: inline;
+}
+.tweet-actions{
+    display: flex;
+justify-content: space-evenly;
+border-bottom: 1px solid gray;
+padding: 1rem;
+
+}
+.tweet{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+
+}
+.tweet-cat{
+    padding: 1rem;
+
+}
+.post{
+    display: flex;
+    gap: 1rem;
+}
